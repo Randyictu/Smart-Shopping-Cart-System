@@ -1,0 +1,154 @@
+/* General Styles */
+body.landing {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.content {
+  max-width: 700px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header .logo a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.cart-link span {
+  background: #fff;
+  color: #2e7d32;
+  border-radius: 50%;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+}
+
+/* Product Section */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 0 2rem 2rem;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 0.8rem 0 0.3rem;
+  font-size: 1.2rem;
+  color: #2e7d32;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #555;
+}
+
+.product-card button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #388e3c;
+}

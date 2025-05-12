@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Plants | Paradise Nursery</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body class="product-page">
+
+  <header>
+    <div class="logo">
+      <a href="index.html">🌿 Paradise Nursery</a>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html" class="cart-link">
+        🛒 Cart <span id="cart-count">0</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="section-title">Our Houseplants</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="istockphoto-2170686151-1024x1024.jpg" alt="Monstera">
+        <h3>Monstera</h3>
+        <p>$15.99</p>
+        <button onclick="addToCart('Monstera', 15.99)">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="istockphoto-2170686151-1024x1024.jpg" alt="Succulent">
+        <h3>Succulent</h3>
+        <p>$7.49</p>
+        <button onclick="addToCart('Succulent', 7.49)">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="istockphoto-1457941583-2048x2048.jpg" alt="Snake Plant">
+        <h3>Snake Plant</h3>
+        <p>$12.99</p>
+        <button onclick="addToCart('Snake Plant', 12.99)">Add to Cart</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="istockphoto-2170686151-1024x1024.jpg" alt="Bonsai Tree">
+        <h3>Bonsai Tree</h3>
+        <p>$24.99</p>
+        <button onclick="addToCart('Bonsai Tree', 24.99)">Add to Cart</button>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="istockphoto-1457941583-2048x2048.jpg" alt="Cactus">
+        <h3>Cactus</h3>
+        <p>$9.99</p>
+        <button onclick="addToCart('Cactus', 9.99)">Add to Cart</button>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="istockphoto-1457941583-2048x2048.jpg" alt="Pothos">
+        <h3>Pothos</h3>
+        <p>$11.49</p>
+        <button onclick="addToCart('Pothos', 11.49)">Add to Cart</button>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
